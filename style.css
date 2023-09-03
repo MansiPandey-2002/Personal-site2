@@ -1,6 +1,10 @@
 @media only screen and (max-width: 600px) {
   p {
-    font-size:0.9rem;
+    font-size:0.5rem;
+  }
+  h1
+  {
+    font-size:5rem;
   }
 }
 h1{
