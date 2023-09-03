@@ -1,4 +1,8 @@
-
+@media only screen and (max-width: 600px) {
+  p {
+    font-size:0.9rem;
+  }
+}
 h1{
     color: white;
     text-align: center;
