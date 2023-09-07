@@ -180,6 +180,11 @@ header {
 
 /* Media query for mobile responsiveness */
 @media (max-width: 768px) {
+    .navbar
+    {
+        padding-right: 2px;
+        padding-left: 2px;
+    }
     h1{
         font-size: 3.8rem;
     }
