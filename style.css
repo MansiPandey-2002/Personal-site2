@@ -182,7 +182,7 @@ header {
 @media (max-width: 768px) {
     .navbar
     {
-        padding-right: 2px;
+        padding-right: 3px;
         padding-left: 2px;
     }
     h1{
