@@ -1,37 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Certifications</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certifications</title>
+    <link rel="stylesheet" href="./try.css">
 </head>
-
 <body>
-  <div class="main">
-    <div id="scene">
-      <div id="left-zone">
-        <ul class="list">
-          <li class="item">
-            <input type="radio" id="radio_1" name="basic_carousel" value="1" checked="checked"/>
-            <label class="label_1" for="radio_1"></label>
-            <div class="content content_1">
-              <img src="./cer/google.jpg" alt="Image 1">
-            </div>
-          </li>
-          <li class="item">
-            <input type="radio" id="radio_2" name="basic_carousel" value="2"/>
-            <label class="label_2" for="radio_2"></label>
-            <div class="content content_2">
-              <img src="./cer/web.jpg"  alt="Image 2">
-            </div>
-          </li>
-        </ul>
+    <div class="scrolls">
+        <div class="up">
+          <span>↑</span>
+          <div class="center">
+            <span>| <br> |</span>
+          </div>
+        </div>
+        <div class="down">
+          <span>↓</span>
+        </div>
       </div>
-      <div id="middle-border"></div>
-      <div id="right-zone"></div>
-    </div>
-  </div>
+      <div class="smooth">
+        <div class="header">
+          <ul>
+            <li><a href="#cert">Certifications</a></li>
+            <li><a href="#courses">Courses</a></li>
+          </ul>
+        </div>
+
+        <section id="cert">
+          <img src="./cer/google.jpg">
+        </section>
+
+        <section id="courses">
+          <img src="./cer/web.jpg">
+        </section>
+
+        <section id="courses">
+          <img src="./cer/java.png">
+        </section>
+
+      </div>  
+    <script src="./try.js"></script>
 </body>
 </html>
