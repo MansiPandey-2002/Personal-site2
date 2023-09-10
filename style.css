@@ -182,8 +182,8 @@ header {
 @media (max-width: 768px) {
     .navbar
     {
-        padding-right: 3px;
-        padding-left: 2px;
+        padding-right: 4px;
+        padding-left: 3px;
     }
     h1{
         font-size: 3.8rem;
