@@ -178,6 +178,23 @@ header {
     color: #fff;
 }
 
+.animated {
+    animation-name: blinkAnimation;
+    animation-duration: 0.7s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes blinkAnimation {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
 /* Media query for mobile responsiveness */
 @media (max-width: 768px) {
     .navbar
