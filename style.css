@@ -16,8 +16,9 @@ h1{
     text-align: center;
     opacity: 1;
     font-family:'Dancing Script',cursive;
-    font-size: 7rem;
+    font-size: 8rem;
     padding-bottom: 1rem;
+    padding-bottom: 2rem;
         color: black;
         text-shadow: 2px 2px 4px black;  
 }
